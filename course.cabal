@@ -34,6 +34,7 @@ library
   build-depends:      base < 5 && >= 4
                       , containers >= 0.4
                       , array >= 0.4
+                      , text
 
   ghc-options:        -Wall
                       -fwarn-incomplete-uni-patterns
@@ -113,6 +114,7 @@ test-suite            tasty
   build-depends:
                       base < 5 && >= 3
                       , containers >= 0.4
+                      , text
                       , course
                       , HUnit >= 1.5
                       , QuickCheck >= 2.9

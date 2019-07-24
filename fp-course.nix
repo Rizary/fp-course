@@ -5,7 +5,7 @@ mkDerivation {
   pname = "course";
   version = "0.1.4";
   src = ./.;
-  libraryHaskellDepends = [ array base containers ];
+  libraryHaskellDepends = [ array base containers text];
   testHaskellDepends = [
     base HUnit QuickCheck tasty tasty-hunit tasty-quickcheck doctest
   ];
